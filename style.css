@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F0B790;
+}
+
+p {
+  line-height: 25px;
+}
+
+#nosotros {
+  margin-top: 220px;
+  text-align: center;
+}
+
+#nosotros h2 {
+  margin: 20px;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.logo {
+  width: 45vw;
+}
+
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo > img {
+  width: 15%;
+  height: 15%;
+  max-width: 150px;
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+}
+
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
+#modelos-de-guitarras {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+#precios {
+  margin-top: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.80rem;
+  display: block;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-left: 55px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: #F0B790;
+  -webkit-transform:scale(1.6);
+  -moz-transform:scale(1.6);
+  -ms-transform:scale(1.6);
+  -o-transform:scale(1.6);
+  transform:scale(1.6);
+  transition: 0.8s;
+}
+
+
+#form input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 29px;
+  margin: 12px 0;
+  border: 0.5px solid grey;
+  background-color: #FCF86E;
+}
+
+input[type='submit']:hover {
+  background-color: #E8FB2E;
+  transition: background-color 0.6s;
+}
+
+.stock {
+  color: #E2E2E0;
+  font-size: 1.3rem;
+}
+
+.price {
+  float: left;
+  margin: 25px;
+  padding: 17px 20px;
+  border: 1px solid 
+}
+
+ol {
+  list-style: none;
+  line-height: 30px;
+}
+  
+.contacto {
+  margin-top: 250px;
+  padding: 110px 20px;
+}
+
+.boton {
+  font-size: 23px;
+  color: #4057EC;
+  background: #FCF86E;
+  font-weight: bold;
+  border-width: 0.2px;
+  padding: 3px;
+}
+
+.boton:hover {
+  background-color: #E8FB2E;
+  transition: background-color 1s;
+}
